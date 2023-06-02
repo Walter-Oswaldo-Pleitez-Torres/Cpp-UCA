@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    int intentos=0;
+    int intentos=0, num3;
     string usuario="Walter", user;
     string password="12345", pwd;
 
@@ -14,7 +14,7 @@ int main(){
         cout<<"Ingrese clave: ";
         cin>>pwd;
 
-        bool equal1 = usuario == user;
+        bool equal1 = usuario == user; //Es verdad
         bool equal2 = password == pwd;
 
         if(equal1 && equal2){
